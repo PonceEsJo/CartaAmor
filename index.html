@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>PARA MI AMOR</strong>
+                        <p>
+                            Sabes durante este tiempo que estamos compartiendo me eh dado cuenta que te quiero mucho y quiero que esto no sea momentaneo. Se que estamos 
+                            pasando por un momento dificil pero juntos podemos superarlo y formar la hermosa relacion que queremos para ambos , no pienso que estamos llendo
+                            muy rapido yo quiero seguir intentandolo contigo se que tambien tengo muchos problemas personales pero quiero que sepas que siempre vas a ser 
+                            una prioridad para mi.
+                            <a href="Corazon.html" > Click aqui </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
